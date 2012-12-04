@@ -1,1 +1,65 @@
-@CHARSET "ISO-8859-1";
+body {
+	background-color:#ccc;
+	font-family:Century Gothic, Arial;
+	margin:0px;
+}
+
+#wrapper {
+	width:1200px;
+	margin:0 auto 0 auto;
+	background-color:#fff;
+	padding:15px;
+	box-shadow:0px 0px 20px #888;
+	overflow:auto;
+
+}
+
+header h1 {
+	font-size:40pt;
+}
+/* NAV MENU*/
+ul {
+	margin:0px;
+	padding:0px;
+}
+
+
+.mainmenu li {
+	float:left;
+	
+}
+
+.mainmenu #first-child a{
+	padding-left:0px;
+}
+
+.mainmenu li a{
+	padding: 5px 30px 5px 30px;
+	text-decoration:none;
+	color:#000;
+	font-size:20pt;
+	font-weight:bold;
+	
+}
+.mainmenu li:hover .submenu{
+	display:block;
+	list-style:none;
+}
+.submenu {
+	display:none;
+}
+.submenu li {
+	float:none;
+}
+
+.submenu li a {
+	font-size:16pt;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+
+/* CONTENT */
+
+h2 {
+	padding-top:120px;
+}
