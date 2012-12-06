@@ -1,6 +1,6 @@
 <?php
-extract($_POST);
 require('../config/db.php');
+extract($_POST);
 $conn = new mysqli('localhost',DB_USERNAME,DB_PASSWORD,DB_NAME);
 $post_title = addslashes($post_title);
 $post_text = addslashes($post_text);

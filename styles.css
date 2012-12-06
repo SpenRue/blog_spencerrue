@@ -4,6 +4,25 @@ body {
 	margin:0px;
 }
 
+
+#top-background {
+	width:100%;
+	background-color:#fff;
+	box-shadow:0px 0px 20px #888;
+	position:relative;
+	background-color:#333;
+	z-index:2;
+	height:200px;
+}
+
+#top-content {
+	width:1200px;
+	color:#fff;
+	text-shadow:0px 3px 1px #000;
+	margin:0 auto 0 auto;
+	padding:15px;
+}
+
 #wrapper {
 	width:1200px;
 	margin:0 auto 0 auto;
@@ -11,7 +30,6 @@ body {
 	padding:15px;
 	box-shadow:0px 0px 20px #888;
 	overflow:auto;
-
 }
 
 header h1 {
@@ -39,7 +57,7 @@ ul {
 .mainmenu li a{
 	padding: 5px 30px 5px 30px;
 	text-decoration:none;
-	color:#000;
+	color:#fff;
 	font-size:20pt;
 	font-weight:bold;
 	

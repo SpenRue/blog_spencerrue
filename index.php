@@ -4,13 +4,17 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div id="wrapper">
-		<header>
+	<div id="top-background">
+		<div id="top-content">
+			<header>
 			<?php include './layout/header.php'?>
-		</header>
-		<nav>
+			</header>
+			<nav>
 			<?php include './layout/nav.php'?>
-		</nav>
+			</nav>
+		</div>
+	</div>
+	<div id="wrapper">
 		<div id="content">
 			<?php include './layout/content.php'?>
 		</div>
