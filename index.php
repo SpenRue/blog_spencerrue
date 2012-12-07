@@ -18,9 +18,9 @@
 		<div id="content">
 			<?php include './layout/content.php'?>
 		</div>
-		<footer>
-			<?php include './layout/footer.php'?>
-		</footer>
 	</div>
+	<footer>
+		<?php include './layout/footer.php'?>
+	</footer>
 </body>
 </html>

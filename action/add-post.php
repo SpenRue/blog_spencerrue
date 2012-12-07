@@ -7,4 +7,4 @@ $post_text = addslashes($post_text);
 $sql = "INSERT INTO posts (post_title,post_text) VALUES('$post_title','$post_text')";
 $conn->query($sql);
 $conn->close();
-header("Location:../?p=public/posts");
+header("Location:../?p=public/home");
